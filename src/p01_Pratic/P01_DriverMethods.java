@@ -47,7 +47,6 @@ public class P01_DriverMethods {
         driver.navigate().forward();
         driver.navigate().refresh();
 
-
         Thread.sleep(3000);
         driver.quit();
 

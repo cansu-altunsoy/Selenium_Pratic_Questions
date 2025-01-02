@@ -26,7 +26,6 @@ public class P02_Xpath {
         WebElement aramaKutusu = driver.findElement(By.id("global-search"));
         aramaKutusu.sendKeys("dress" + Keys.ENTER);
 
-
         // 3- Görüntülenen sonuçların sayısını yazdırın
 
         WebElement sonucSayisi = driver.findElement(By.xpath("//*[@class='product-count-text']"));
